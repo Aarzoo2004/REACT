@@ -39,7 +39,7 @@ const News = (props) => {
         setLoading(false);
         props.setProgress(100);
     }
-console.log("Articles:", articles)
+
     useEffect(() => {
         setPage(1); // reset page when category/country changes
         updateNews();
